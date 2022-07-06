@@ -69,7 +69,7 @@ static struct zram *zram_devices;
  #if IS_ENABLED(CONFIG_CRYPTO_LZ4)
 static const char *default_compressor = "lz4";
 #else
-static const char *default_compressor = "lzo";
+static const char *default_compressor = "lz4";
 #endif
 
 /* Module params (documentation at end) */
